@@ -12,6 +12,8 @@ use backend\models\Book;
  */
 class BookSearch extends Book
 {
+    public $author;
+
     /**
      * {@inheritdoc}
      */
@@ -19,6 +21,7 @@ class BookSearch extends Book
     {
         return [
             [['id', 'author_id'], 'integer'],
+            [['author'], 'safe'],
             [['name'], 'safe'],
         ];
     }
@@ -44,10 +47,16 @@ class BookSearch extends Book
         $query = Book::find();
 
         // add conditions that should always apply here
+        $query->joinWith(['author']);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
+
+        $dataProvider->sort->attributes['author'] = [
+            'asc' => ['author.name' => SORT_ASC],
+            'desc' => ['author.name' => SORT_DESC],
+        ];
 
         $this->load($params);
 
@@ -63,6 +72,7 @@ class BookSearch extends Book
             'author_id' => $this->author_id,
         ]);
 
+        $query->andFilterWhere(['like', 'author.name', $this->author]);
         $query->andFilterWhere(['like', 'name', $this->name]);
 
         return $dataProvider;
