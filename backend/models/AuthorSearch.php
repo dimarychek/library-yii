@@ -12,14 +12,17 @@ use backend\models\Author;
  */
 class AuthorSearch extends Author
 {
+    public $book;
+    public $bookCount;
+
     /**
      * {@inheritdoc}
      */
     public function rules()
     {
         return [
-            [['id'], 'integer'],
-            [['name'], 'safe'],
+            [['id', 'bookCount'], 'integer'],
+            [['name', 'book'], 'safe'],
         ];
     }
 
@@ -44,10 +47,16 @@ class AuthorSearch extends Author
         $query = Author::find();
 
         // add conditions that should always apply here
+        $query->joinWith(['book']);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
+
+        $dataProvider->sort->attributes['bookCount'] = [
+            'asc' => ['book.author_id' => SORT_ASC],
+            'desc' => ['book.author_id' => SORT_DESC],
+        ];
 
         $this->load($params);
 
@@ -60,6 +69,7 @@ class AuthorSearch extends Author
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
+//            'book.author_id' => $this->id,
         ]);
 
         $query->andFilterWhere(['like', 'name', $this->name]);

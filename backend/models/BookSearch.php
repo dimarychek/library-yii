@@ -21,8 +21,7 @@ class BookSearch extends Book
     {
         return [
             [['id', 'author_id'], 'integer'],
-            [['author'], 'safe'],
-            [['name'], 'safe'],
+            [['name', 'author'], 'safe'],
         ];
     }
 

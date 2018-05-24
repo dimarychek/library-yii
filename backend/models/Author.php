@@ -42,4 +42,20 @@ class Author extends \yii\db\ActiveRecord
             'name' => 'Author Name',
         ];
     }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBook()
+    {
+        return $this->hasMany(Book::className(), ['author_id' => 'id']);
+    }
+
+    /**
+     * @return int|string
+     */
+    public function getBookCount()
+    {
+        return $this->getBook()->count();
+    }
 }
