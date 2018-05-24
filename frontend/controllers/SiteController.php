@@ -12,6 +12,8 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
+use common\models\Author;
+use common\models\Book;
 
 /**
  * Site controller
@@ -72,9 +74,13 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $query = Author::find();
 
+        $authors = $query->leftJoin('book', 'author_id = author.id')->all();
 
-        return $this->render('index');
+        return $this->render('index', [
+            'authors' => $authors,
+        ]);
     }
 
     /**
