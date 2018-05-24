@@ -5,7 +5,8 @@ namespace backend\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use backend\models\Author;
+use common\models\Author;
+use common\models\Book;
 
 /**
  * AuthorSearch represents the model behind the search form of `backend\models\Author`.

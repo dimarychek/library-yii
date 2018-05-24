@@ -1,24 +1,23 @@
 <?php
 
-namespace backend\models;
+namespace common\models;
 
 use Yii;
 
 /**
- * This is the model class for table "book".
+ * This is the model class for table "author".
  *
  * @property int $id
- * @property int $author_id
  * @property string $name
  */
-class Book extends \yii\db\ActiveRecord
+class Author extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}
      */
     public static function tableName()
     {
-        return 'book';
+        return 'author';
     }
 
     /**
@@ -27,8 +26,7 @@ class Book extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['author_id', 'name'], 'required'],
-            [['author_id'], 'integer'],
+            [['name'], 'required'],
             [['name'], 'string', 'max' => 255],
             [['name'], 'unique'],
         ];
@@ -41,16 +39,23 @@ class Book extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'author_id' => 'Author ID',
-            'name' => 'Book Name',
+            'name' => 'Author Name',
         ];
     }
 
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getAuthor()
+    public function getBook()
     {
-        return $this->hasOne(Author::className(), ['id' => 'author_id']);
+        return $this->hasMany(Book::className(), ['author_id' => 'id']);
+    }
+
+    /**
+     * @return int|string
+     */
+    public function getBookCount()
+    {
+        return $this->getBook()->count();
     }
 }

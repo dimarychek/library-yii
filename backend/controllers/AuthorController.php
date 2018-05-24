@@ -3,7 +3,7 @@
 namespace backend\controllers;
 
 use Yii;
-use backend\models\Author;
+use common\models\Author;
 use backend\models\AuthorSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

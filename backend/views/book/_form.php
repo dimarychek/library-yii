@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 use yii\widgets\ActiveForm;
-use backend\models\Author;
+use common\models\Author;
 
 /* @var $this yii\web\View */
 /* @var $model backend\models\Book */
