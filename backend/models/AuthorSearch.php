@@ -47,15 +47,16 @@ class AuthorSearch extends Author
         $query = Author::find();
 
         // add conditions that should always apply here
-        $query->joinWith(['book']);
+        $subQuery = Book::find()->select('author_id, COUNT(author_id) as book_count')->groupBy('author_id');
+        $query->leftJoin(['bookNum' => $subQuery], 'bookNum.author_id = id');
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
         ]);
 
         $dataProvider->sort->attributes['bookCount'] = [
-            'asc' => ['book.author_id' => SORT_ASC],
-            'desc' => ['book.author_id' => SORT_DESC],
+            'asc' => ['book_count' => SORT_ASC],
+            'desc' => ['book_count' => SORT_DESC],
         ];
 
         $this->load($params);
@@ -69,7 +70,7 @@ class AuthorSearch extends Author
         // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
-//            'book.author_id' => $this->id,
+            'book_count' => $this->bookCount,
         ]);
 
         $query->andFilterWhere(['like', 'name', $this->name]);
