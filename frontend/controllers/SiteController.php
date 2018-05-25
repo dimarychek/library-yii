@@ -20,6 +20,8 @@ use common\models\Book;
  */
 class SiteController extends Controller
 {
+    public $adminUrl = 'http://admin.library.local/';
+
     /**
      * {@inheritdoc}
      */
@@ -100,9 +102,7 @@ class SiteController extends Controller
         } else {
             $model->password = '';
 
-            return $this->render('login', [
-                'model' => $model,
-            ]);
+            return $this->redirect($this->adminUrl);
         }
     }
 
