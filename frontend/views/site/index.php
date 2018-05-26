@@ -16,7 +16,7 @@ $this->title = 'Library';
 
         <div class="row">
             <?php foreach ($authors as $author): ?>
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <h2><?= Html::encode("$author->name") ?></h2>
                     <ul>
                         <?php foreach ($author->book as $book): ?>

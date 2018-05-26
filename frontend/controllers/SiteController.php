@@ -13,7 +13,6 @@ use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use common\models\Author;
-use common\models\Book;
 
 /**
  * Site controller
