@@ -1,0 +1,1381 @@
+2018-05-26 01:55:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 01:55:59 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6311'
+    'REDIRECT_URL' => '/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527288959.934
+    'REQUEST_TIME' => 1527288959
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 01:56:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 01:56:00 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://api.library.local/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6311'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527288960.23
+    'REQUEST_TIME' => 1527288960
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 01:56:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 01:56:03 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6311'
+    'REDIRECT_URL' => '/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527288963.31
+    'REQUEST_TIME' => 1527288963
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 01:56:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 01:56:03 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://api.library.local/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6311'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527288963.483
+    'REQUEST_TIME' => 1527288963
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 01:56:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 01:56:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'books'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6314'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=books'
+    'REQUEST_URI' => '/index.php?r=books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527288973.775
+    'REQUEST_TIME' => 1527288973
+    'argv' => [
+        0 => 'r=books'
+    ]
+    'argc' => 1
+]
+2018-05-26 01:56:15 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 01:56:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'books'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6314'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=books'
+    'REQUEST_URI' => '/index.php?r=books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527288975.128
+    'REQUEST_TIME' => 1527288975
+    'argv' => [
+        0 => 'r=books'
+    ]
+    'argc' => 1
+]
+2018-05-26 01:56:15 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 01:56:15 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://api.library.local/index.php?r=books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6314'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527288975.287
+    'REQUEST_TIME' => 1527288975
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 01:56:27 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 01:56:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'api/v1/books'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6317'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=api/v1/books'
+    'REQUEST_URI' => '/index.php?r=api/v1/books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527288987.161
+    'REQUEST_TIME' => 1527288987
+    'argv' => [
+        0 => 'r=api/v1/books'
+    ]
+    'argc' => 1
+]
+2018-05-26 01:56:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 01:56:34 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6317'
+    'REDIRECT_URL' => '/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527288994.557
+    'REQUEST_TIME' => 1527288994
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 01:57:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 01:57:29 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6319'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289049.259
+    'REQUEST_TIME' => 1527289049
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 01:57:58 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 01:57:58 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6320'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289078.67
+    'REQUEST_TIME' => 1527289078
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 01:59:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-05-26 01:59:41 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6351'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289181.368
+    'REQUEST_TIME' => 1527289181
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 01:59:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-05-26 01:59:41 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://api.library.local/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6351'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289181.62
+    'REQUEST_TIME' => 1527289181
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 01:59:55 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "books".' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books', Array)
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-05-26 01:59:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'books'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6353'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=books'
+    'REQUEST_URI' => '/index.php?r=books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289195.335
+    'REQUEST_TIME' => 1527289195
+    'argv' => [
+        0 => 'r=books'
+    ]
+    'argc' => 1
+]
+2018-05-26 02:00:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "books/index".' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books/index', Array)
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-05-26 02:00:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'books/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6353'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=books/index'
+    'REQUEST_URI' => '/index.php?r=books/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289200.467
+    'REQUEST_TIME' => 1527289200
+    'argv' => [
+        0 => 'r=books/index'
+    ]
+    'argc' => 1
+]
+2018-05-26 02:00:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "books".' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('books', Array)
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-05-26 02:00:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'books'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6353'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=books'
+    'REQUEST_URI' => '/index.php?r=books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289204.39
+    'REQUEST_TIME' => 1527289204
+    'argv' => [
+        0 => 'r=books'
+    ]
+    'argc' => 1
+]
+2018-05-26 02:00:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "book".' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('book', Array)
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-05-26 02:00:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'book'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6353'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=book'
+    'REQUEST_URI' => '/index.php?r=book'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289204.777
+    'REQUEST_TIME' => 1527289204
+    'argv' => [
+        0 => 'r=book'
+    ]
+    'argc' => 1
+]
+2018-05-26 02:00:21 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "book".' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('book', Array)
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-05-26 02:00:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'book'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6355'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=book'
+    'REQUEST_URI' => '/index.php?r=book'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289221.971
+    'REQUEST_TIME' => 1527289221
+    'argv' => [
+        0 => 'r=book'
+    ]
+    'argc' => 1
+]
+2018-05-26 02:00:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 02:00:39 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6355'
+    'REDIRECT_URL' => '/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289239.982
+    'REQUEST_TIME' => 1527289239
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 02:00:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 02:00:40 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://api.library.local/books'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6355'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289240.123
+    'REQUEST_TIME' => 1527289240
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 02:02:36 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 02:02:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'api/v1/books'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6357'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=api/v1/books'
+    'REQUEST_URI' => '/index.php?r=api/v1/books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289356.79
+    'REQUEST_TIME' => 1527289356
+    'argv' => [
+        0 => 'r=api/v1/books'
+    ]
+    'argc' => 1
+]
+2018-05-26 02:03:44 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 02:03:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'api/web/v1/books'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6359'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=api/web/v1/books'
+    'REQUEST_URI' => '/index.php?r=api/web/v1/books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527289424.087
+    'REQUEST_TIME' => 1527289424
+    'argv' => [
+        0 => 'r=api/web/v1/books'
+    ]
+    'argc' => 1
+]
+2018-05-26 03:00:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:00:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => '/books'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6480'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=/books'
+    'REQUEST_URI' => '/index.php?r=/books'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1527292830.393
+    'REQUEST_TIME' => 1527292830
+    'argv' => [
+        0 => 'r=/books'
+    ]
+    'argc' => 1
+]
+2018-05-26 03:13:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:13:01 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://library.local/api/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '6655'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527293581.466
+    'REQUEST_TIME' => 1527293581
+    'argv' => []
+    'argc' => 0
+]
