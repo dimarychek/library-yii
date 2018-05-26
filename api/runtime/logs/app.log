@@ -1379,3 +1379,945 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2018-05-26 03:35:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: 3' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\rest\Action.php:104
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\rest\ViewAction.php(29): yii\rest\Action->findModel('3')
+#1 [internal function]: yii\rest\ViewAction->run('3')
+#2 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#3 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#4 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#5 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/book/view', Array)
+#6 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-05-26 03:35:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7059'
+    'REDIRECT_URL' => '/api/web/v1/books/3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/books/3'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527294930.69
+    'REQUEST_TIME' => 1527294930
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:35:38 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: 1' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\rest\Action.php:104
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\rest\ViewAction.php(29): yii\rest\Action->findModel('1')
+#1 [internal function]: yii\rest\ViewAction->run('1')
+#2 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#3 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\Action->runWithParams(Array)
+#4 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('view', Array)
+#5 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('v1/book/view', Array)
+#6 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#8 {main}
+2018-05-26 03:35:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7059'
+    'REDIRECT_URL' => '/api/web/v1/books/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/books/1'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527294938.07
+    'REQUEST_TIME' => 1527294938
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:35:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:35:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7059'
+    'REDIRECT_URL' => '/api/web/v1/books/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/books/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527294943.792
+    'REQUEST_TIME' => 1527294943
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:35:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:35:49 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7059'
+    'REDIRECT_URL' => '/api/web/v1/books/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/books/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527294949.487
+    'REQUEST_TIME' => 1527294949
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:35:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:35:56 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7065'
+    'REDIRECT_URL' => '/api/web/v1/books/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/books/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527294956.399
+    'REQUEST_TIME' => 1527294956
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:36:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:36:03 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7065'
+    'REDIRECT_URL' => '/api/web/v1/books/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/books/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527294963.529
+    'REQUEST_TIME' => 1527294963
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:38:51 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:38:51 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7084'
+    'REDIRECT_URL' => '/api/v1/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/books'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527295131.871
+    'REQUEST_TIME' => 1527295131
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:42:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:42:29 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7149'
+    'REDIRECT_URL' => '/api/web/v1/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/books'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527295349.453
+    'REQUEST_TIME' => 1527295349
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:42:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:42:48 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7149'
+    'REDIRECT_URL' => '/api/web/v1/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/books'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527295368.87
+    'REQUEST_TIME' => 1527295368
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:43:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:43:13 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7156'
+    'REDIRECT_URL' => '/api/web/v1/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/books'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527295393.13
+    'REQUEST_TIME' => 1527295393
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:43:14 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:43:14 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7156'
+    'REDIRECT_URL' => '/api/web/v1/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/books'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527295394.341
+    'REQUEST_TIME' => 1527295394
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:45:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:45:26 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7174'
+    'REDIRECT_URL' => '/api/web/v1/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/books'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527295526.731
+    'REQUEST_TIME' => 1527295526
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:51:14 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:51:14 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7245'
+    'REDIRECT_URL' => '/api/v1/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/books'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527295874.46
+    'REQUEST_TIME' => 1527295874
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:51:18 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:51:18 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7245'
+    'REDIRECT_URL' => '/api/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527295878.967
+    'REQUEST_TIME' => 1527295878
+    'argv' => []
+    'argc' => 0
+]
+2018-05-26 03:52:19 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Request.php:284
+Stack trace:
+#0 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OSPanel\domains\library.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\library.local\api\web\index.php(17): yii\base\Application->run()
+#3 {main}
+2018-05-26 03:52:19 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => '76lpa59n67aq57j7j6945ec161'
+    '_csrf-frontend' => '00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd\";}'
+    'advanced-backend' => 'jkf7p1bhbid5imfhhhges9r480'
+    '_identity-backend' => '19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"JPjppL009dfkLwZhHtJKQU8Nzad_uuud\",2592000]\";}'
+    '_csrf-backend' => 'c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"AlOdFvhaR8HUua-w3VOIZML3svUmSJ--\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'library.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ru;q=0.8'
+    'HTTP_COOKIE' => 'advanced-frontend=76lpa59n67aq57j7j6945ec161; _csrf-frontend=00be17c7e42ac6e9a0b3cf2e647aaed7bb973fcaa73c3f5c907630d17858d176a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22PNhi0w0MCm3kOYpJkVTcP-pSu8U665sd%22%3B%7D; advanced-backend=jkf7p1bhbid5imfhhhges9r480; _identity-backend=19152e5c119b0361e10feb616222dfdf85353b5dbec6f93b1b8b7d616be98abfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22JPjppL009dfkLwZhHtJKQU8Nzad_uuud%22%2C2592000%5D%22%3B%7D; _csrf-backend=c3e8f91469be5a2e6f4a95d3460fc94bb28f3a8bb5b21fb0fdb8cd315aa5c1b8a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22AlOdFvhaR8HUua-w3VOIZML3svUmSJ--%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.5\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'library.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/library.local'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/library.local/api/web/index.php'
+    'REMOTE_PORT' => '7250'
+    'REDIRECT_URL' => '/api/v1/books'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/v1/books'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1527295939.251
+    'REQUEST_TIME' => 1527295939
+    'argv' => []
+    'argc' => 0
+]
