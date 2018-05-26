@@ -45,6 +45,9 @@ return [
                     'tokens' => [
                         '{id}' => '<id:\\w+>'
                     ],
+                    'extraPatterns' => [
+                        'POST {id}' => 'update',
+                    ],
                 ]
             ],
         ]
