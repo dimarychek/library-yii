@@ -44,8 +44,7 @@ return [
                     'controller' => 'v1/book',
                     'tokens' => [
                         '{id}' => '<id:\\w+>'
-                    ]
-
+                    ],
                 ]
             ],
         ]
