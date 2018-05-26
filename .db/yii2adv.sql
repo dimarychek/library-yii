@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: May 24, 2018 at 04:04 PM
+-- Generation Time: May 26, 2018 at 03:27 PM
 -- Server version: 5.5.57
 -- PHP Version: 5.6.31
 
@@ -38,8 +38,10 @@ CREATE TABLE `author` (
 --
 
 INSERT INTO `author` (`id`, `name`) VALUES
-(2, 'Another Author'),
-(1, 'Test Author');
+(6, 'Грегори Дэвид Робертс'),
+(7, 'Джордж Оруэлл'),
+(8, 'Оскар Уайльд'),
+(5, 'Рей Брэдбери');
 
 -- --------------------------------------------------------
 
@@ -49,19 +51,26 @@ INSERT INTO `author` (`id`, `name`) VALUES
 
 CREATE TABLE `book` (
   `id` int(11) NOT NULL,
-  `author_id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL
+  `name` varchar(255) NOT NULL,
+  `author_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `book`
 --
 
-INSERT INTO `book` (`id`, `author_id`, `name`) VALUES
-(1, 2, 'Test Book'),
-(2, 1, 'One more'),
-(3, 2, 'jklkmlkml'),
-(4, 2, 'One more book');
+INSERT INTO `book` (`id`, `name`, `author_id`) VALUES
+(16, '451° по Фаренгейту', 5),
+(17, 'Вино из одуванчиков', 5),
+(18, 'Марсианские хроники', 5),
+(19, 'Шантарам', 6),
+(20, 'Тень горы', 6),
+(21, '1984', 7),
+(22, 'Скотный Двор', 7),
+(23, 'Да здравствует фикус!', 7),
+(24, 'Портрет Дориана Грея', 8),
+(25, 'Как важно быть серьезным', 8),
+(26, 'Кентервильское привидение', 8);
 
 -- --------------------------------------------------------
 
@@ -150,12 +159,12 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `author`
 --
 ALTER TABLE `author`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT for table `book`
 --
 ALTER TABLE `book`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 --
 -- AUTO_INCREMENT for table `user`
 --
